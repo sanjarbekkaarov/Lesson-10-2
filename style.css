@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container {
+    max-width: 1247px;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-header h1 {
+    color: rgba(0, 0, 0, 1);
+
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 900;
+
+}
+
+.logo-header p {
+    color: rgba(123, 123, 123, 1);
+
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.header_search input {
+    border: none;
+    outline: none;
+    padding: 0 45px;
+
+    border-radius: 15px;
+    background: rgba(249, 249, 249, 1);
+    width: 764px;
+    height: 50px;
+}
+
+.header_search {
+    position: relative;
+
+}
+
+.header_search img {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+
+}
+
+.header_btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.btn_user {
+    display: flex;
+    align-items: center;
+    padding: 14px 22px;
+    gap: 5px;
+box-sizing: border-box;
+border: 1px solid rgba(254, 95, 0, 1);
+border-radius: 15px;
+background: rgba(255, 255, 255, 1);
+color: rgba(254, 95, 0, 1);
+
+font-family: Nunito;
+font-size: 16px;
+font-weight: 600;
+
+}
+.btn_shop{
+     padding: 14px 22px;
+    gap: 5px;
+border: 1px solid rgba(254, 95, 0, 1);
+border-radius: 15px;
+background: rgba(255, 255, 255, 1);
+}
+
+.header_hr{
+    margin-top: 42px;
+}
+
+.section_1{
+    margin-top: 40px;
+}
+
+.section_1 h1{
+    color: rgba(0, 0, 0, 1);
+
+font-family: Nunito;
+font-size: 36px;
+font-weight: 800;
+
+}
+
+.choice{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sorting{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px;
+    width: 240px;
+    height: 55px;
+    border-radius: 15px;
+    gap: 10px;
+     font-family: Nunito;
+     background: rgba(250, 250, 250, 1);
+     
+
+}
+
+.choice_title a{
+    transition: 0.6s all ease;
+text-decoration: none;
+color: black;
+
+}
+.choice_title{
+    font-family: Nunito;
+    padding: 0 49px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 775px;
+height: 55px;
+border-radius: 15px;
+background: rgba(250, 250, 250, 1);
+}
+.sorting a{
+    color: rgba(254, 95, 0, 1);
+font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+text-decoration: none;
+}
+
+.sorting h4{
+    color: rgba(32, 32, 32, 1);
+font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+
+
+}
+.choice_title a:hover{
+    color: rgba(254, 95, 0, 1);
+background-color: white;
+box-shadow: 0 5px 25px black;
+border-radius: 15px;
+font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+padding: 10px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.checkbox_text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 15px 0;
+
+}
+.checkbox_text h3{
+    color: rgba(0, 0, 0, 1);
+
+font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+}
+.section_2 h1{
+    color: rgba(0, 0, 0, 1);
+
+font-family: Nunito;
+font-size: 16px;
+font-weight: 700;
+
+}
+.width{
+    width: 230px;
+}.check{
+    margin-top: 50px;
+}
+.check_input div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.check_input div input{
+width: 90px;
+height: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(240, 240, 240, 1);
+border-radius: 10px;
+outline: none;
+
+
+}
+.check_input h3{
+    color: rgba(0, 0, 0, 1);
+
+font-family: Nunito;
+font-size: 16px;
+font-weight: 700;
+margin: 25px 0;
+}
+
+.check_input{
+    margin: 25px 0;
+}
+.ingredients h2{
+    color: rgba(0, 0, 0, 1);
+
+font-family: Nunito;
+font-size: 16px;
+font-weight: 700;
+}
+.ingredients a{
+    color: rgba(254, 95, 0, 1);
+
+font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+text-decoration: none;
+}
+.data_type{
+    margin-top: 31px;
+}
+.data_type h2{
+    color: rgba(0, 0, 0, 1);
+
+font-family: Nunito;
+font-size: 16px;
+font-weight: 700;
+}
+.check_btn button{
+    border-radius: 18px;
+    background-color: rgba(254, 95, 0, 1);
+    color: rgba(255, 255, 255, 1);
+
+font-family: Nunito;
+font-size: 16px;
+font-weight: 700;
+padding: 15px 55px;
+border: none;
+margin-top: 34px;
+}
+
+.pizza_text h1{
+    color: rgba(0, 0, 0, 1);
+
+font-family: Nunito;
+font-size: 22px;
+font-weight: 700;
+
+
+}
+.pizza_text p{
+    color: rgba(177, 177, 177, 1);
+margin: 10px 0;
+font-family: Nunito;
+font-size: 14px;
+font-weight: 400;
+}
+.pizza_title h2{
+    color: rgba(0, 0, 0, 1);
+
+font-family: Nunito;
+font-size: 20px;
+font-weight: 400;
+
+}
+
+.pizza_title button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1.4px solid #fe5f00;
+    background-color: rgba(255, 250, 244, 1);
+    padding: 11px 21px;
+    color: rgba(254, 95, 0, 1);
+
+font-family: Nunito;
+font-size: 15px;
+font-weight: 600;
+border-radius: 15px;
+}
+
+.pizza_title{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    width: 285px;
+
+}
+
+.pizza_card{
+width: 285px;
+border-radius: 15px;
+background: rgba(255, 247, 238, 1);
+padding: 24px 37px;
+position: relative
+}
+
+.ruletka{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+
+}
+.card{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pizza{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_2{
+    margin-top: 50px;
+}
